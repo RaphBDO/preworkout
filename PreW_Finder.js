@@ -186,7 +186,7 @@ var snack15 = {
         "10g de whey",
         "100ml de lait d'amande",
     ],
-    highlightednutrients: ["proteines", "glucides", "vitamines B"],
+    highlightednutrients: ["proteines", "glucides"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
