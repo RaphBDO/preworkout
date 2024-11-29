@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/dxn7ter.css" />
+    <link rel="stylesheet" href="src/PreW_Finder.css" />
+    <title></title>
+  </head>
+  <body>
+    <section id="upperSection"></section>
+    <section id="trainingSection">
+      <label for="trainingTypeLabel" id="trainingTypeLabel"
+        >Ton entraînement:</label
+      >
+
+      <select name="trainingType" id="trainingType">
+        <option value="cardio">Cardio</option>
+        <option value="strength">Force</option>
+        <option value="HIIT">HIIT</option>
+        <option value="Plyometrics">Pliométrie</option>
+      </select>
+      <button class="controlButton" id="validTrainingButton">Valider</button>
+    </section>
+
+    <section id="timeAvailSection">
+      <label id="labelTimeInput" for="timeAvailLabel"
+        >Combien de temps (en h):</label
+      >
+      <input
+        type="text"
+        id="timeAvailInput"
+        name="timeAvailInput"
+        placeholder="entre le repas et la séance"
+      /><br /><br />
+      <div id="errorMessage"></div>
+    </section>
+
+    <section id="snacksSection">
+      <button class="snackOption" id="snackOption1"></button>
+      <div class="snackLabel" id="label1"></div>
+      <button class="snackOption" id="snackOption2"></button>
+      <div class="snackLabel" id="label2"></div>
+      <button class="snackOption" id="snackOption3"></button>
+      <div class="snackLabel" id="label3"></div>
+      <button class="snackOption" id="snackOption4"></button>
+      <div class="snackLabel" id="label4"></div>
+    </section>
+    <section id="snackContentSection">
+      <div class="snackChosen" id="snackChosenName"></div>
+      <div class="snackChosen" id="snackChosenTaste"></div>
+      <div class="snackChosen" id="snackChosenTime"></div>
+      <div class="snackChosen" id="snackChosenOutdoor"></div>
+      <div class="snackChosen" id="snackChosenIngredients"></div>
+      <div class="snackChosen" id="snackChosenNutrients"></div>
+      <div id="richFood"></div>
+      <a id="ctaLink" target="_blank" href="#" onclick="ctaClick()">
+        <button id="ctaLinkButton">
+          Pour tout connaître sur les pré-workouts
+        </button>
+      </a>
+    </section>
+
+    <section id="snackNutrientSection"></section>
+
+    <section id="buttomSection">
+      <div id="progression-bar">
+        <div id="filled-bar"></div>
+      </div>
+      <p id="progression-percentage"></p>
+      <button class="controlButton" id="restartButton">Reinitialiser</button>
+    </section>
+  </body>
+  <script src="src/PreW_Finder.js" defer></script>
+</html>
+
+<!-- 
+
+CREATE FLOWCHART FOR THIS PROJECT + A WIEFRAME/MAQUETTE FIGMA
+
+### **Pre-Workout Snack Finder (chat GPT suggestion below)**
+
+- **Description**: Create a tool that suggests quick and easy pre-workout snacks based on the type of workout (e.g., cardio, strength training) and the time available before exercising.
+- **Features**:
+    - Dropdown menus to select workout type and time available.
+    - A list of snack options that provide the right energy boost.
+    - Nutritional breakdown for each suggested snack.
+- **Benefits**: Helps your audience choose the right fuel for their workouts.
+- **Shareability**: A practical tool for athletes that can be shared on social media and integrated into your website.
+
+## BUT CAN BE GOOD TO USE THIS FORM:
+
+- List of diff questions when must select one answer drop down (eg.5 diff questions around type of session will be done, in how many time, ifr need to be easy to eat outside or without couverts or without table etc…)
+- At end of question give example snack + main macros to focus on by giving example foods for each macros + put CTA préworkout guide to go “further” and more details if want)
+
+
+-->
