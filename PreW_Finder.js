@@ -171,7 +171,7 @@ var snack14 = {
     timePrep: 5,
     eatOutdoor: true,
     ingredients: ["100g de compote maison (sans sucre ajouté)", "10g d'amandes"],
-    highlightednutrients: ["glucides rapides", "fibres", "vitamine C"],
+    highlightednutrients: ["glucides", "vitamine C"],
     digestibility: "fast",
     repartitionMacros: "HG",
 };
@@ -186,7 +186,7 @@ var snack15 = {
         "10g de whey",
         "100ml de lait d'amande",
     ],
-    highlightednutrients: ["protéines", "glucides complexes", "vitamines B"],
+    highlightednutrients: ["proteines", "glucides"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
@@ -201,7 +201,7 @@ var snack16 = {
         "1 œuf",
         "1 cuillère à café de levure chimique",
     ],
-    highlightednutrients: ["glucides complexes", "protéines", "fibres"],
+    highlightednutrients: ["glucides", "proteines"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
@@ -217,7 +217,7 @@ var snack17 = {
         "50g de miel",
         "50g de noix",
     ],
-    highlightednutrients: ["glucides complexes", "fibres", "graisses insaturées"],
+    highlightednutrients: ["glucides", "lipides"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
@@ -232,7 +232,7 @@ var snack18 = {
         "50ml de lait",
         "1 cuillère à soupe de miel",
     ],
-    highlightednutrients: ["glucides complexes", "protéines", "calcium"],
+    highlightednutrients: ["glucides", "proteines", "calcium"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
@@ -247,7 +247,7 @@ var snack19 = {
         "10g de noix",
         "50ml de lait d'amande",
     ],
-    highlightednutrients: ["fibres", "glucides complexes", "graisses insaturées"],
+    highlightednutrients: ["glucides", "lipides"],
     digestibility: "medium",
     repartitionMacros: "HG",
 };
@@ -263,7 +263,7 @@ var snack20 = {
         "100g de légumes (poivrons, carottes)",
         "100ml de lait",
     ],
-    highlightednutrients: ["protéines", "fibres", "glucides complexes"],
+    highlightednutrients: ["proteines", "glucides"],
     digestibility: "slow",
     repartitionMacros: "HGHP",
 };
@@ -278,7 +278,7 @@ var snack21 = {
         "50g de légumes (salade, tomate)",
         "10g de houmous",
     ],
-    highlightednutrients: ["protéines", "fibres", "glucides complexes"],
+    highlightednutrients: ["proteines", "glucides"],
     digestibility: "slow",
     repartitionMacros: "HGHP",
 };
@@ -288,11 +288,7 @@ var snack22 = {
     timePrep: 10,
     eatOutdoor: false,
     ingredients: ["1 muffin anglais complet", "1 œuf poché", "10g d’avocat"],
-    highlightednutrients: [
-        "protéines",
-        "glucides complexes",
-        "graisses insaturées",
-    ],
+    highlightednutrients: ["proteines", "glucides", "lipides"],
     digestibility: "medium",
     repartitionMacros: "HGHP",
 };
